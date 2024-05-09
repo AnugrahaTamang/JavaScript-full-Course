@@ -12,3 +12,6 @@ Some of the most important JS engines today are:
 3 : JavaScriptCore - Used in Safari, known for its tight integration with Apple devices.
 
 4 : Chakra - Developed by Microsoft, Chakra was the JavaScript engine used in the Edge web browser. It has now been replaced by the Chromium-based Edge browser, which uses V8 as its JavaScript engine.
+
+
+
