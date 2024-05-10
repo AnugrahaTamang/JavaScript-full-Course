@@ -8,6 +8,3 @@ let obj = {
 console.log(obj);
 console.log(obj.add());
 
-let mysymb = Symbol("anu");
-console.log(mysymb);
-console.log(typeof(mysymb));
