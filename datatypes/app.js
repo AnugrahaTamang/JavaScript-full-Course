@@ -54,3 +54,7 @@ console.log(typeof(ad)); //function
 
 // Note:  null typeof value is object.
 
+let mysy = Symbol("Anugraha");
+console.log(mysy);
+console.log(typeof(mysy));
+
