@@ -63,4 +63,3 @@ let b = 12;
 console.log(a && b);//12
 console.log(a || b);//10
 console.log(!(a==b)); //true
-
