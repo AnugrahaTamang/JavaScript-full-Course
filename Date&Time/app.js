@@ -28,3 +28,4 @@ console.log(newDate.getFullYear());
 console.log(newDate.getMonth());
 console.log(newDate.getTime().toLocaleString());
 console.log(newDate.getDay()+1);
+
