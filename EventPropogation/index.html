@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event propogation</title>
+  </head>
+  <body>
+    <div class="images">
+      <li><img src="img1.jpg" alt="image" /></li>
+      <li><img src="img2.jpg" alt="image" /></li>
+      <li><img src="img3.jpg" alt="image" /></li>
+      <li><img src="img4.jpg" alt="image" /></li>
+      <a href="//https:www.google.com">google.com</a>
+    </div>
+  </body>
+  <script>
+    //This is about the event propagation.There are two types of event propagation. That're
+    // 1. Event Bubbling format(bydefault false hunxa)
+    // document.querySelector(".images").addEventListener(
+    //   "click",
+    //   function (e) {
+    //     console.log("click the images");
+    //     e.stopPropagation();
+    //   },
+    //   false
+    // );
+    //2. Event capturing (by default true hunxa)
+    document.querySelector("a").addEventListener(
+      "click",
+      function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        console.log("i am anchor tag clicked");
+      },
+      false
+    );
+  </script>
+</html>
